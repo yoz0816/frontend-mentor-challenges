@@ -1,0 +1,35 @@
+# Frontend Mentor Challenges
+
+This repository contains my solutions to various Frontend Mentor challenges. I use these projects to practice and improve my HTML, CSS, JavaScript, and responsive web design skills.
+
+## Completed Challenges
+
+| Challenge | Difficulty | Live Demo | Source Code |
+|-----------|------------|-----------|-------------|
+| Social Links Profile | Newbie | 🔗 | 📁 |
+| Recipe Page | Newbie | 🔗 | 📁 |
+| Blog Preview Card | Newbie | 🔗 | 📁 |
+| Results Summary Component | Newbie | 🔗 | 📁 |
+| Social Proof Section | Newbie | 🔗 | 📁 |
+| Clipboard Landing Page | Junior | 🔗 | 📁 |
+| Testimonials Grid Section | Junior | 🔗 | 📁 |
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Responsive Design
+- JavaScript (for future challenges)
+
+## About Frontend Mentor
+
+Frontend Mentor provides realistic front-end coding challenges to help developers improve their skills by building projects.
+
+https://www.frontendmentor.io/
+
+## Author
+
+- GitHub: https://github.com/yoz0816
+- Frontend Mentor: https://www.frontendmentor.io/profile/yoz0816
