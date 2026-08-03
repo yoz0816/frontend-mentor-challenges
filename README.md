@@ -21,7 +21,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 - Flexbox
 - CSS Grid
 - Responsive Design
-- JavaScript (for future challenges)
+- JavaScript
 
 ## About Frontend Mentor
 
