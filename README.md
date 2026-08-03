@@ -7,7 +7,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 | Challenge | Difficulty | Live Demo | Source Code |
 |-----------|------------|-----------|-------------|
 | Social Links Profile | Newbie |  https://yoz0816.github.io/social-links-profile/ | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/social-links-profile-main |
-| Recipe Page | Newbie | 🔗 | 📁 |
+| Recipe Page | Newbie |  https://yoz0816.github.io/recipe-page/ | 📁 |
 | Blog Preview Card | Newbie | 🔗 | 📁 |
 | Results Summary Component | Newbie | 🔗 | 📁 |
 | Social Proof Section | Newbie | 🔗 | 📁 |
