@@ -1,0 +1,389 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cyan: hsl(171, 66%, 44%);
+    --cyan-hover: hsl(171, 66%, 50%);
+    --blue: hsl(233, 100%, 69%);
+    --blue-hover: hsl(233, 100%, 75%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+    --light-bg: hsl(201, 11%, 98%);
+    --font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #fff;
+    background-image: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--font-family);
+    font-size: 1.125rem; 
+    line-height: 1.6;
+    color: var(--grayish-blue);
+}
+
+h1, h2, h3 {
+    color: var(--dark-grayish-blue);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.primary,
+.secondary {
+    width: 100%;
+    padding: 0.875rem 2rem;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.125rem;
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.primary {
+    background-color: var(--cyan);
+    border-bottom: 3px solid hsl(171, 66%, 35%);
+}
+
+.secondary {
+    background-color: var(--blue);
+    border-bottom: 3px solid hsl(233, 100%, 60%);
+}
+
+.primary:hover {
+    background-color: var(--cyan-hover);
+}
+
+.secondary:hover {
+    background-color: var(--blue-hover);
+}
+
+.container {
+    width: 100%;
+    max-width: 90rem; 
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero-section {
+    width: 100%;
+    max-width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 8rem;
+    gap: 1.5rem;
+}
+
+.hero-section img {
+    width: 7.8125rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    margin-bottom: 1rem;
+}
+
+.track {
+    width: 100%;
+    max-width: 73.75rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.track-header {
+    max-width: 45rem;
+    text-align: center;
+}
+
+.track-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.track-detail img {
+    width: 100%;
+    max-width: 47rem;
+}
+
+.track-talk {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.track-text p {
+    font-size: 1rem;
+}
+
+.access {
+    width: 100%;
+    max-width: 45rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.access p {
+    margin-bottom: 4rem;
+}
+
+.access img {
+    width: 100%;
+}
+
+.workflow {
+    width: 100%;
+    max-width: 73.75rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.workflow > p {
+    margin-bottom: 5rem;
+}
+
+.workflow-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    width: 100%;
+    align-items: center;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 22rem;
+}
+
+.steps img {
+    height: 2.5rem;
+    width: auto;
+    object-fit: contain;
+}
+
+.steps p {
+    font-size: 1rem;
+}
+
+
+.companies {
+    width: 100%;
+    max-width: 73.75rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.clipboard {
+    width: 100%;
+    max-width: 45rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.clipboard p {
+    margin-bottom: 2.5rem;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: var(--light-bg);
+    padding: 3.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.footer img {
+    width: 3.4375rem;
+}
+
+.footer nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.footer nav a {
+    color: var(--dark-grayish-blue);
+    font-size: 1.125rem;
+    transition: color 0.2s ease;
+}
+
+.footer nav a:hover {
+    color: var(--cyan);
+}
+
+.media {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.media a img {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: filter 0.2s ease;
+}
+
+.media a:hover img {
+    filter: invert(53%) sepia(68%) saturate(464%) hue-rotate(124deg) brightness(90%) contrast(87%);
+}
+
+.attribution {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--light-bg);
+    color: var(--dark-grayish-blue);
+}
+
+.attribution a {
+    color: var(--cyan);
+}
+
+@media (min-width: 48rem) {
+    body {
+        background-image: url('./images/bg-header-desktop.png');
+    }
+
+    h1 {
+        font-size: 2.8125rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    .button-group {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .primary,
+    .secondary {
+        width: 14.1875rem; 
+    }
+
+
+    .track-detail {
+        flex-direction: row;
+        margin-left: -8rem; 
+        align-items: center;
+        gap: 6.875rem;
+    }
+
+    .track-detail img {
+        width: 50vw;
+        max-width: 47rem;
+    }
+
+    .track-talk {
+        text-align: left;
+        max-width: 22rem;
+    }
+
+
+    .workflow-cards {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .companies {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2.5rem 10.3125rem;
+        text-align: left;
+    }
+
+    .footer nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem 2rem;
+    }
+}

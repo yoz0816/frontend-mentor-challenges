@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color:    hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main-section {
+    width: 650px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    text-align: center;
+    width: 50%;
+    background: linear-gradient(
+        to bottom,
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.result > p:last-child {
+    max-width: 220px;
+    line-height: 1.5;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: hsla(256, 72%, 46%, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.result1{
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.result h2{
+    font-size:32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.circle h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.circle p{
+    font-size:12px;
+    letter-spacing: 1px;
+}
+.result p{
+    text-align: center;
+    font-size:16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    gap:12px;
+    width:50%;
+    
+}
+.summary h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.summary-item strong {
+    color: black;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, .08);
+}
+
+.reaction h4 {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, .08);
+}
+
+.memory h4 {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, .08);
+}
+
+.verbal h4 {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, .08);
+}
+
+.visual h4 {
+    color: hsl(234, 85%, 45%);
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: hsl(224, 30%, 27%);
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:1px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: hsl(241, 81%, 54%);
+}
+
+.attribution {
+     font-size: 0.6875rem; 
+     text-align: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width:700px){
+
+    body {
+        align-items:flex-start;
+    }
+
+    .main-section {
+        width:100%;
+        min-height:auto;
+        flex-direction:column;
+        border-radius:0;
+    }
+
+    .result {
+        min-height:380px;
+    }
+
+    .summary {
+        width:100%;
+    }
+}

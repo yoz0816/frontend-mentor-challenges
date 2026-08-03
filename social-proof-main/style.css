@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  background-image:
+    url("images/bg-pattern-top-desktop.svg"),
+    url("images/bg-pattern-bottom-desktop.svg");
+
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.container {
+  width: min(100%, 69.375rem);
+  margin: 0 auto;
+  padding: 7.5rem 2rem 3rem;
+}
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 4.5rem;
+}
+
+.hero-text {
+  max-width: 26.875rem;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 0.9;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(303, 10%, 53%);
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rating-detail {
+  display: flex;
+  align-items: center;
+  width: 27.8125rem;
+  padding: 1.1rem 2rem;
+  gap: 2rem;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.5rem;
+}
+.rating-detail figure {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rating-detail h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+.rating-detail:nth-child(2) {
+  transform: translateX(3rem);
+}
+
+.rating-detail:nth-child(3) {
+  transform: translateX(6rem);
+}
+
+.card {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+}
+
+.card-content {
+  flex: 1;
+  height: 13.125rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  padding: 2rem;
+  border-radius: 0.625rem;
+}
+.card-content:nth-child(2) {
+  margin-top: 1rem;
+}
+.card-content:nth-child(3) {
+  margin-top: 2rem;
+}
+
+.card-detail {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.card-detail img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.card-text h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.card-text p {
+  color: hsl(333, 80%, 67%);
+}
+.card-content > p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.attribution {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+@media (max-width: 48rem) {
+body {
+  background-image:
+    url("images/bg-pattern-top-mobile.svg"),
+    url("images/bg-pattern-bottom-mobile.svg");
+}
+.container {
+  padding: 4rem 1.5rem;
+}
+.hero-section {
+  flex-direction: column;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+.rating {
+  width: 100%;
+}
+.rating-detail {
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.rating-detail:nth-child(2),
+.rating-detail:nth-child(3) {
+  transform: none;
+}
+.rating-detail figure {
+  justify-content: center;
+}
+.card {
+  flex-direction: column;
+}
+.card-content {
+  width: 100%;
+  height: auto;
+  margin-top: 0 !important;
+}
+
+
+}

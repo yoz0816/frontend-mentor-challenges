@@ -1,0 +1,167 @@
+
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background:hsl(233, 47%, 7%);
+    color:hsl(0, 0%, 100%);
+    font-family:"Inter",sans-serif;
+    font-size:0.9375rem;
+    line-height:1.6;
+}
+
+.container{
+    width:100%;
+    padding:1.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+}
+
+.hero-content{
+    display:flex;
+    max-width:64rem;
+    width:100%;
+    background:hsl(244, 38%, 16%);
+    border-radius:0.75rem;
+    overflow:hidden;
+}
+
+.hero-text{
+    flex:1;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hero-text h1{
+    font-size:2.25rem;
+    line-height:1.2;
+    font-weight:700;
+    margin-bottom:1.5rem;
+}
+
+.hero-text span{
+    color:hsl(277, 64%, 61%);
+}
+
+.description{
+    font-family:"Lexend Deca",sans-serif;
+    color:hsla(0,0%,100%,0.75);
+    max-width:24rem;
+    margin-bottom:4rem;
+    line-height:1.8;
+}
+
+
+.data{
+    display:flex;
+    gap:3.5rem;
+    flex-wrap:wrap;
+}
+
+.data-content h2{
+    font-size:1.5rem;
+    margin-bottom:0.4rem;
+}
+
+.data-content p{
+    font-family:"Lexend Deca",sans-serif;
+    text-transform:uppercase;
+    font-size:0.75rem;
+    letter-spacing:0.1rem;
+    color:hsla(0,0%,100%,0.6);
+}
+
+.hero-image{
+    flex:1;
+    background:hsl(277,64%,61%);
+}
+
+.hero-img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    mix-blend-mode:multiply;
+    opacity:0.75;
+}
+
+.attribution{
+    text-align:center;
+    font-size:0.6875rem;
+    padding:1rem;
+}
+
+.attribution a{
+    color:hsl(228,45%,44%);
+}
+
+@media (max-width:48rem){
+
+    .hero-content{
+        flex-direction:column-reverse;
+        max-width:23.4375rem;
+        text-align:center;
+    }
+
+    .hero-text{
+        padding:2.5rem 2rem;
+        align-items:center;
+    }
+
+    .hero-text h1{
+        font-size:1.75rem;
+    }
+
+    .description{
+        margin-bottom:2rem;
+        max-width:none;
+    }
+
+    .data{
+        flex-direction:column;
+        gap:2rem;
+        align-items:center;
+    }
+
+    .hero-image{
+        width:100%;
+        min-height:15rem;
+    }
+}
+
+@media (max-width:20rem){
+
+    .container{
+        padding:1rem;
+    }
+
+    .hero-text{
+        padding:2rem 1.5rem;
+    }
+
+    .hero-text h1{
+        font-size:1.5rem;
+    }
+
+    .description{
+        font-size:0.875rem;
+    }
+
+    .data-content h2{
+        font-size:1.25rem;
+    }
+}
