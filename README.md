@@ -8,7 +8,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |-----------|------------|-----------|-------------|
 | Social Links Profile | Newbie |  https://yoz0816.github.io/social-links-profile/ | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/social-links-profile-main |
 | Recipe Page | Newbie |  https://yoz0816.github.io/recipe-page/ | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/recipe-page-main |
-| Blog Preview Card | Newbie | 🔗 | 📁 |
+| Blog Preview Card | Newbie | https://yoz0816.github.io/blog-preview/ | 📁 |
 | Results Summary Component | Newbie | 🔗 | 📁 |
 | Social Proof Section | Newbie | 🔗 | 📁 |
 | Clipboard Landing Page | Junior | 🔗 | 📁 |
