@@ -1,4 +1,4 @@
-# Frontend Mentor Challenges
+ko# Frontend Mentor Challenges
 
 This repository contains my solutions to various Frontend Mentor challenges. I use these projects to practice and improve my HTML, CSS, JavaScript, and responsive web design skills.
 
@@ -9,7 +9,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 | Social Links Profile | Newbie |  https://yoz0816.github.io/social-links-profile/ | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/social-links-profile-main |
 | Recipe Page | Newbie |  https://yoz0816.github.io/recipe-page/ | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/recipe-page-main |
 | Blog Preview Card | Newbie | https://yoz0816.github.io/blog-preview/ |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/blog-preview-main  |
-| Results Summary Component | Newbie | 🔗 | 📁 |
+| Results Summary Component | Newbie | 🔗 | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/Summary-Component-main |
 | Social Proof Section | Newbie | 🔗 | 📁 |
 | Clipboard Landing Page | Junior | 🔗 | 📁 |
 | Testimonials Grid Section | Junior | 🔗 | 📁 |
