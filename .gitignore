@@ -1,0 +1,81 @@
+# ==========================================
+# Design Files
+# ==========================================
+*.sketch
+*.fig
+*.xd
+
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+node_modules/
+.pnp/
+.pnp.js
+
+# Package Manager Locks (Uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==========================================
+# Environment Files & Secrets
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+*.pem
+
+# ==========================================
+# Build & Output Directories
+# ==========================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+.vercel/
+.netlify/
+.parcel-cache/
+.turbo/
+
+# ==========================================
+# Testing & Code Coverage
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn.debug.log*
+yarn-error.log*
+yarn.error.log*
+pnpm-debug.log*
+
+# ==========================================
+# IDEs, Editors & Tooling
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.prettierignore
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
