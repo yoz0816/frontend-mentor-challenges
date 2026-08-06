@@ -45,7 +45,6 @@ Users should be able to:
 * Semantic HTML5
 * CSS custom properties
 * Flexbox
-* Mobile-first workflow
 
 ### What I Learned
 
