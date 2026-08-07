@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 * **Solution URL:** https://www.frontendmentor.io/profile/yoz0816
-* **Live Site URL:** 
+* **Live Site URL:** https://yoz0816.github.io/frontend-mentor-challenges/nft-preview-card-component-main/
 
 ---
 
