@@ -1,4 +1,4 @@
-ko# Frontend Mentor Challenges
+Frontend Mentor Challenges
 
 This repository contains my solutions to various Frontend Mentor challenges. I use these projects to practice and improve my HTML, CSS, JavaScript, and responsive web design skills.
 
@@ -16,6 +16,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |Stats preview card| Junior| https://yoz0816.github.io/Stats-preview-card/ |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/Stats-preview-card-main|
 |hotel-booking | Junior |https://yoz0816.github.io/hotel-booking-confirmation/|https://github.com/yoz0816/frontend-mentor-challenges/tree/main/hotel-booking-confirmation-main|
 |Bento-Grid | Newbie | https://yoz0816.github.io/bento-grid/|https://github.com/yoz0816/frontend-mentor-challenges/tree/main/Bento-Grid-main|
+|NFT Preview Card | Newbie | https://yoz0816.github.io/frontend-mentor-challenges/nft-preview-card-component-main/     | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nft-preview-card-component-main  |
 
 ## Technologies Used
 

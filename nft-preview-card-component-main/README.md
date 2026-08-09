@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 * **Solution URL:** https://www.frontendmentor.io/profile/yoz0816
-* **Live Site URL:** 
+* **Live Site URL:** https://yoz0816.github.io/frontend-mentor-challenges/nft-preview-card-component-main/
 
 ---
 
@@ -45,7 +45,6 @@ Users should be able to:
 * Semantic HTML5
 * CSS custom properties
 * Flexbox
-* Mobile-first workflow
 
 ### What I Learned
 
@@ -61,7 +60,6 @@ In future projects, I want to continue improving my:
 
 * CSS layout and positioning skills.
 * Responsive design techniques.
-* Accessibility best practices.
 * CSS animations and hover interactions.
 
 ---
