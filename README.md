@@ -17,6 +17,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |hotel-booking | Junior |https://yoz0816.github.io/hotel-booking-confirmation/|https://github.com/yoz0816/frontend-mentor-challenges/tree/main/hotel-booking-confirmation-main|
 |Bento-Grid | Newbie | https://yoz0816.github.io/bento-grid/|https://github.com/yoz0816/frontend-mentor-challenges/tree/main/Bento-Grid-main|
 |NFT Preview Card | Newbie | https://yoz0816.github.io/frontend-mentor-challenges/nft-preview-card-component-main/     | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nft-preview-card-component-main  |
+|product preview card | Newbie | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/product-preview-card-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/product-preview-card-component-main/ |
 
 ## Technologies Used
 
