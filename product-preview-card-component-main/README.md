@@ -34,8 +34,8 @@ Users should be able to:
 ![Product Preview Card Component](./preview.jpg)
 
 ### Links
--Repository site:[View Live Site]()
-- Live Site URL: [View Live Site](https://yoz0816.github.io/product-preview-card/)
+- Repository site:[View Live Site](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/product-preview-card-component-main)
+- Live Site URL: [View Live Site]()
 
 ## My Process
 
