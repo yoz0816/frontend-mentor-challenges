@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - **Solution URL:** [View the source code](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/grid-landing-page-main)
-- **Live Site:** [View the live site](https://yoz0816.github.io/frontend-mentor-challenges/)
+- **Live Site:** [View the live site](https://yoz0816.github.io/frontend-mentor-challenges/grid-landing-page-main/)
 
 ## My Process
 
