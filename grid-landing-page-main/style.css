@@ -1,0 +1,401 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+  background: hsl(224, 100%, 95%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.site {
+  position: relative;
+  width: min(90rem, calc(100% - 8.75rem));
+  min-height: 45rem;
+  margin: 10.875rem auto 0;
+  background: hsl(228, 100%, 60%);
+  box-shadow: 0 1.25rem 2rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  z-index: 20;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.75rem;
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.logo span {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: hsl(0, 0%, 100%);
+}
+
+#menu-toggle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.menu-button {
+  position: relative;
+  z-index: 30;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu-button img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.menu-open {
+  display: block;
+}
+
+.menu-close {
+  display: none;
+}
+
+#menu-toggle:checked ~ .header .menu-open {
+  display: none;
+}
+
+#menu-toggle:checked ~ .header .menu-close {
+  display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  min-height: 36.875rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 3rem 2.75rem;
+}
+
+.hero-section h1 {
+  max-width: 32rem;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.08rem;
+}
+
+.hero-section p {
+  max-width: 26rem;
+  margin-top: 2.5rem;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.stats {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.stat-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1.75rem;
+  border-left: 0.0625rem solid rgba(255, 255, 255, 0.15);
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.15);
+}
+
+.stat-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.stat-head img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.stat-head h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.stat-end h3 {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.stat-end p {
+  margin-top: 0.15rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+  height: 4.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.75rem;
+  border-top: 0.0625rem solid rgba(255, 255, 255, 0.15);
+}
+
+.footer p {
+  font-size: 0.875rem;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.35s ease,
+    visibility 0.35s ease;
+}
+
+#menu-toggle:checked ~ .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  width: 23.5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 7.75rem;
+  background: hsl(220, 100%, 64%);
+  transform: translateX(100%);
+  transition: transform 0.35s ease;
+}
+
+#menu-toggle:checked ~ .menu-panel {
+  transform: translateX(0);
+}
+
+.menu-panel nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu-panel nav a {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.45;
+  transition: opacity 0.2s ease;
+}
+
+.menu-panel nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.menu-panel nav a:focus-visible {
+  outline: 0.125rem solid white;
+  outline-offset: 0.25rem;
+}
+
+.attribution {
+  margin: 1.5rem auto;
+  color: #555;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.attribution a {
+  color: hsl(228, 100%, 60%);
+
+  text-decoration: underline;
+}
+
+
+@media (max-width: 60rem) {
+
+  .site {
+    width: 94%;
+
+    margin-top: 5rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section {
+    min-height: 25rem;
+  }
+
+  .stats {
+    min-height: 35rem;
+  }
+}
+
+
+
+@media (max-width: 40rem) {
+
+  body {
+    font-size: 1rem;
+  }
+
+  .site {
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 0;
+
+    box-shadow: none;
+  }
+
+  .header {
+    height: 4.5rem;
+
+    padding: 0 1.5rem;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .hero-section {
+    min-height: 25rem;
+
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-section h1 {
+    font-size: clamp(2.4rem, 11vw, 3rem);
+  }
+
+  .hero-section p {
+    margin-top: 2rem;
+
+    font-size: 1rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+
+    min-height: auto;
+  }
+
+  .stat-card {
+    min-height: 15rem;
+
+    padding: 1.75rem 1.5rem;
+
+    border-left: 0;
+  }
+  .footer {
+    height: auto;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 0.5rem;
+
+    padding: 1.5rem;
+  }
+  .menu-panel {
+    width: 100%;
+
+    padding-top: 7rem;
+  }
+
+  .menu-panel nav a {
+    font-size: 1.75rem;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
+
+@media (max-width: 23.5rem) {
+
+  .hero-section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .hero-section h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-section p {
+    font-size: 0.95rem;
+  }
+
+  .stat-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .menu-panel {
+    padding-top: 6.5rem;
+  }
+
+  .menu-panel nav a {
+    font-size: 1.5rem;
+  }
+}
