@@ -19,7 +19,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |NFT Preview Card | Newbie | https://yoz0816.github.io/frontend-mentor-challenges/nft-preview-card-component-main/     | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nft-preview-card-component-main  |
 |product preview card | Newbie | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/product-preview-card-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/product-preview-card-component-main/ |
 |grid landing page  | Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/grid-landing-page-main | https://yoz0816.github.io/frontend-mentor-challenges/grid-landing-page-main/  |
-
+| QR code component  | Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/qr-code-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/qr-code-component-main/ |
 ## Technologies Used
 
 - HTML5

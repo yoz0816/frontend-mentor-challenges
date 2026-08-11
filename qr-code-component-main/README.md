@@ -12,8 +12,7 @@ Frontend Mentor challenges help me improve my frontend development skills by bui
 
 ### Links
 
-* Solution URL: https://www.frontendmentor.io/solutions/qr-code-component
-* Live Site URL: https://yoz0816.github.io/qr-code-component/
+* Live Site URL:https://yoz0816.github.io/frontend-mentor-challenges/qr-code-component-main/
 
 ## My Process
 
