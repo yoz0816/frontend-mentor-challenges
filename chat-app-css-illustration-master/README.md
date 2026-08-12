@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL](YOUR_LIVE_SITE_URL)
+- Live Site URL: [live site URL](https://yoz0816.github.io/frontend-mentor-challenges/chat-app-css-illustration-master/)
 
 ## My process
 
