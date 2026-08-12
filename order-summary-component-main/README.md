@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](ADD-YOUR-GITHUB-REPOSITORY-LINK)
-- Live Site URL: [Live Site](ADD-YOUR-LIVE-SITE-LINK)
+- Solution URL: [GitHub Repository](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/order-summary-component-main)
+- Live Site URL: [Live Site]( https://yoz0816.github.io/frontend-mentor-challenges/order-summary-component-main/)
 
 ## My process
 

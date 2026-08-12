@@ -21,6 +21,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |grid landing page  | Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/grid-landing-page-main | https://yoz0816.github.io/frontend-mentor-challenges/grid-landing-page-main/  |
 | QR code component  | Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/qr-code-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/qr-code-component-main/ |
 | Chat app css illustration| Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/chat-app-css-illustration-master  | https://yoz0816.github.io/frontend-mentor-challenges/chat-app-css-illustration-master/ |
+|order summary | Newbie |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/order-summary-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/order-summary-component-main/  |
 ## Technologies Used
 
 - HTML5
