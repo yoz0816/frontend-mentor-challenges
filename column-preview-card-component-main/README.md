@@ -12,8 +12,8 @@ Frontend Mentor challenges help me improve my HTML and CSS skills by building re
 
 ### Links
 
-* Solution URL: [GitHub Repository](#)
-* Live Site URL: [Live Demo](#)
+* Solution URL: [GitHub Repository](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/column-preview-card-component-main)
+* Live Site URL: [Live Demo](https://yoz0816.github.io/frontend-mentor-challenges/column-preview-card-component-main/)
 
 ## My Process
 
