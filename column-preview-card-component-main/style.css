@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 920px;
+    height: 500px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sedans,
+.suvs,
+.luxury {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    color: white;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.sedans img,
+.suvs img,
+.luxury img {
+    width: 64px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.sedans h1,
+.suvs h1,
+.luxury h1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.sedans p,
+.suvs p,
+.luxury p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.btn {
+    margin-top: auto;
+    width: 147px;
+    height: 49px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.sedans .btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs .btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .btn {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.sedans .btn:hover,
+.suvs .btn:hover,
+.luxury .btn:hover {
+    color: white;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 700px) {
+    body {
+        padding: 40px 24px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        border-radius: 8px;
+    }
+
+    .sedans,
+    .suvs,
+    .luxury {
+        min-height: 442px;
+        padding: 48px;
+    }
+
+    .sedans img,
+    .suvs img,
+    .luxury img {
+        width: 64px;
+        margin-bottom: 35px;
+    }
+
+    .sedans h1,
+    .suvs h1,
+    .luxury h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    .attribution {
+        margin-top: 20px;
+    }
+}
