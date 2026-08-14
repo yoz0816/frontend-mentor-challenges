@@ -23,6 +23,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 | Chat app css illustration| Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/chat-app-css-illustration-master  | https://yoz0816.github.io/frontend-mentor-challenges/chat-app-css-illustration-master/ |
 |order summary | Newbie |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/order-summary-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/order-summary-component-main/  |
 |column preview  | Newbie  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/column-preview-card-component-main  | https://yoz0816.github.io/frontend-mentor-challenges/column-preview-card-component-main/  |
+|fylo data storage   | Newbie  |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/fylo-data-storage-component-master |https://yoz0816.github.io/frontend-mentor-challenges/fylo-data-storage-component-master/  |
 
 ## Technologies Used
 
