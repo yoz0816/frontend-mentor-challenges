@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+  <main class="container">
+    <section class="card logo-card">
+      <img class="logo-img" src="images/logo.svg" alt="Fylo logo">
+      <div class="actions">
+        <button class="icon-btn" aria-label="Document"><img src="images/icon-document.svg" alt=""></button>
+        <button class="icon-btn" aria-label="Folder"><img src="images/icon-folder.svg" alt=""></button>
+        <button class="icon-btn" aria-label="Upload"><img src="images/icon-upload.svg" alt=""></button>
+      </div>
+    </section>
+
+    <section class="card storage-card">
+      <p class="storage-text">You’ve used <span>815 GB</span> of your storage</p>
+      
+      <div class="progress-bar-container">
+        <div class="progress-bar">
+          <div class="progress-fill">
+            <span class="progress-dot"></span>
+          </div>
+        </div>
+        <div class="progress-labels">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+      </div>
+
+      <div class="left-badge">
+        <span class="number">185</span>
+        <span class="unit">GB LEFT</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="#">Yoz</a>.
+  </footer>
+
+</body>
+</html>
