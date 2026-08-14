@@ -36,7 +36,6 @@ Users should be able to:
 - Live Site URL: [Live Demo](https://yoz0816.github.io/frontend-mentor-challenges/fylo-data-storage-component-master/)
 
 ---
-
 ## My process
 
 ### Built with
