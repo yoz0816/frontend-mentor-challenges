@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-* Solution URL: [GitHub Repository](https://github.com/yoz0816/frontend-mentor-challenges)
-* Live Site URL: [Live Site](https://yoz0816.github.io/frontend-mentor-challenges/four-card-feature-section-main/)
+* Solution URL: [GitHub Repository](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/four-card-feature-section-master)
+* Live Site URL: [Live Site]( https://yoz0816.github.io/frontend-mentor-challenges/four-card-feature-section-master/)
 
 ## My process
 
