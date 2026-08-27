@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-* Solution URL: Add your Frontend Mentor solution URL here
-* Live Site URL: Add your live site URL here
+* Solution URL: [Solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/article%20preview%20component)
+* Live Site URL: [Live Demo](https://yoz0816.github.io/frontend-mentor-challenges/article%20preview%20component/)
 
 ## My process
 
@@ -74,5 +74,5 @@ In future projects, I want to continue improving my:
 
 ## Author
 
-* Frontend Mentor - Add your Frontend Mentor profile URL here
-* GitHub - Add your GitHub profile URL here
+* Frontend Mentor - [Frontend Mentor](https://www.frontendmentor.io/profile/yoz0816)
+* GitHub - [GitHub](https://github.com/yoz0816)
