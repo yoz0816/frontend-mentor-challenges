@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero-section {
+    position: relative;
+    width: 410px;
+    min-height: 415px;
+    padding: 32px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}
+
+.rating-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.star {
+    width: 48px;
+    height: 48px;
+    padding: 16px;
+    background-color: hsl(216, 12%, 24%);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.rating-section h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(0, 100%, 100%);
+}
+
+.rating-section p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: hsl(217, 12%, 63%);
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.number button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 24%);
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.number button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+}
+
+.number button.selected {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.submit {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit:hover {
+    background-color: hsl(0, 100%, 100%);
+}
+
+.thank-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}
+
+.thank-image {
+    width: 162px;
+    margin-bottom: 20px;
+}
+
+.selected-rating {
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 24%);
+    color: hsl(25, 97%, 53%) !important;
+    font-size: 15px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 18px;
+}
+
+.thank-section h2 {
+    margin-bottom: 5px;
+    color: hsl(0, 100%, 100%);
+    font-size: 28px;
+}
+
+.thank-section > p:last-child {
+    max-width: 330px;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: hsl(217, 12%, 63%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .hero-section {
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        padding: 24px;
+    }
+
+    .hero-section {
+        width: 100%;
+        min-height: 360px;
+        padding: 24px;
+        border-radius: 15px;
+    }
+
+    .rating-section {
+        gap: 17px;
+    }
+
+    .star {
+        width: 40px;
+        height: 40px;
+        padding: 13px;
+        margin-bottom: 8px;
+    }
+
+    .rating-section h1 {
+        font-size: 24px;
+    }
+
+    .rating-section p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .number {
+        margin-top: 3px;
+    }
+
+    .number button {
+        width: 42px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .submit {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .thank-section {
+        padding: 24px;
+    }
+
+    .thank-image {
+        width: 145px;
+        margin-bottom: 18px;
+    }
+
+    .selected-rating {
+        font-size: 14px !important;
+        padding: 7px 15px;
+        margin-bottom: 15px;
+    }
+
+    .thank-section h2 {
+        font-size: 24px;
+    }
+
+    .thank-section > p:last-child {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
