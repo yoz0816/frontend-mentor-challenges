@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-* Solution URL: [solution URL ](https://www.frontendmentor.io/)
-* Live Site URL: [live site URL](https://your-live-site-url.com)
+* Solution URL: [solution URL ](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/interactive-rating-component-main)
+* Live Site URL: [live site URL](https://yoz0816.github.io/frontend-mentor-challenges/interactive-rating-component-main/)
 
 ## My proces
 
@@ -75,6 +75,6 @@ In future projects, I want to continue improving:
 
 ## Author
 
-* Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+* Frontend Mentor - [Frontend Mentor](https://www.frontendmentor.io/profile/yoz0816)
 
 
