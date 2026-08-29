@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL ere](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/faq-accordion-main)
+- Solution URL: [solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/faq-accordion-main)
 - Live Site URL: [ live site](https://yoz0816.github.io/frontend-mentor-challenges/faq-accordion-main/)
 
 ## My Process
