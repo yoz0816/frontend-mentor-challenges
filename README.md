@@ -27,6 +27,7 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |Four card feature |Newbie | https://yoz0816.github.io/frontend-mentor-challenges/four-card-feature-section-master/  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/four-card-feature-section-master ||
 |  profile card   | Newbie     | https://yoz0816.github.io/frontend-mentor-challenges/profile-card-component-main/     |  https://github.com/yoz0816/frontend-mentor-challenges/tree/main/profile-card-component-main    |
 | faq-accordion  | Newbie   |https://yoz0816.github.io/frontend-mentor-challenges/faq-accordion-main/     | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/faq-accordion-main  |
+|interactive-rating  | Newbie   |https://yoz0816.github.io/frontend-mentor-challenges/interactive-rating-component-main/    | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/interactive-rating-component-main  | 
 ## Technologies Used
 
 - HTML5
