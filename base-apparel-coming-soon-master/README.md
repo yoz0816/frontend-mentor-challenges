@@ -33,12 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Screenshot](./preview.jpg)
+![Screenshot](./preview.jpg)
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here]()
-- Live Site URL: [Add your live site URL here]()
+- Solution URL: [solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-master)
+- Live Site URL: [live site](https://yoz0816.github.io/frontend-mentor-challenges/base-apparel-coming-soon-master/)
 
 ## My process
 
