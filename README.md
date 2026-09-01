@@ -28,6 +28,8 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |  profile card   | Newbie     | https://yoz0816.github.io/frontend-mentor-challenges/profile-card-component-main/     |  https://github.com/yoz0816/frontend-mentor-challenges/tree/main/profile-card-component-main    |
 | faq-accordion  | Newbie   |https://yoz0816.github.io/frontend-mentor-challenges/faq-accordion-main/     | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/faq-accordion-main  |
 |interactive-rating  | Newbie   |https://yoz0816.github.io/frontend-mentor-challenges/interactive-rating-component-main/    | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/interactive-rating-component-main  | 
+| article preview component    |  Newbie    |https://yoz0816.github.io/frontend-mentor-challenges/article%20preview%20component/   |    https://github.com/yoz0816/frontend-mentor-challenges/tree/main/article%20preview%20component  |
+|base-apparel     |  Newbie    | https://yoz0816.github.io/frontend-mentor-challenges/base-apparel-coming-soon-master/    |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-master      |
 ## Technologies Used
 
 - HTML5
