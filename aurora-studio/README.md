@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](YOUR_GITHUB_REPOSITORY_URL)
-- Live Site URL: [Live site](YOUR_LIVE_SITE_URL)
+- Solution URL: [GitHub repository](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/aurora-studio)
+- Live Site URL: [Live site](https://yoz0816.github.io/frontend-mentor-challenges/aurora-studio/)
 
 ## My process
 
