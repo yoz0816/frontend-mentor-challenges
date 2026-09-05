@@ -36,9 +36,9 @@ Users should be able to:
 
 ### Links
 
-* **Solution URL:** 
+* **Solution URL:** [Solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nova-shop)
 
-* **Live Site URL:** 
+* **Live Site URL:**[Live URL](https://yoz0816.github.io/frontend-mentor-challenges/nova-shop/)
 
 ---
 
