@@ -47,8 +47,8 @@ The dashboard includes:
 
 ## Links
 
-* Solution URL: [GitHub Repository](https://github.com/yoz0816)
-* Live Site URL: [Live Demo](https://yoz0816.github.io/)
+* Solution URL: [GitHub Repository](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/pulse-analytics)
+* Live Site URL: [Live Demo](https://yoz0816.github.io/frontend-mentor-challenges/pulse-analytics/)
 
 ## My process
 
