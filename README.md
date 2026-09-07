@@ -30,6 +30,9 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |interactive-rating  | Newbie   |https://yoz0816.github.io/frontend-mentor-challenges/interactive-rating-component-main/    | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/interactive-rating-component-main  | 
 | article preview component    |  Newbie    |https://yoz0816.github.io/frontend-mentor-challenges/article%20preview%20component/   |    https://github.com/yoz0816/frontend-mentor-challenges/tree/main/article%20preview%20component  |
 |base-apparel     |  Newbie    | https://yoz0816.github.io/frontend-mentor-challenges/base-apparel-coming-soon-master/    |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-master      |
+|  aurora-studio | junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/aurora-studio   |https://yoz0816.github.io/frontend-mentor-challenges/aurora-studio/    |
+| nova-shop  | junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nova-shop    |https://yoz0816.github.io/frontend-mentor-challenges/nova-shop/     |
+| pulse-analytics    |junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/pulse-analytics      |https://yoz0816.github.io/frontend-mentor-challenges/pulse-analytics/     |
 ## Technologies Used
 
 - HTML5
