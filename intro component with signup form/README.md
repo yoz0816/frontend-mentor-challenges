@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live URL]()
+- Solution URL: [Solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/intro%20component%20with%20signup%20form)
+- Live Site URL: [Live URL](https://yoz0816.github.io/frontend-mentor-challenges/intro%20component%20with%20signup%20form/)
 
 ## My process
 
