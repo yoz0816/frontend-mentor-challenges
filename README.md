@@ -32,7 +32,8 @@ This repository contains my solutions to various Frontend Mentor challenges. I u
 |base-apparel     |  Newbie    | https://yoz0816.github.io/frontend-mentor-challenges/base-apparel-coming-soon-master/    |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-master      |
 |  aurora-studio | junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/aurora-studio   |https://yoz0816.github.io/frontend-mentor-challenges/aurora-studio/    |
 | nova-shop  | junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nova-shop    |https://yoz0816.github.io/frontend-mentor-challenges/nova-shop/     |
-| pulse-analytics    |junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/pulse-analytics      |https://yoz0816.github.io/frontend-mentor-challenges/pulse-analytics/     |
+| pulse-analytics    |junior  | https://github.com/yoz0816/frontend-mentor-challenges/tree/main/pulse-analytics      |https://yoz0816.github.io/frontend-mentor-challenges/pulse-analytics/  |
+| Sign up form   | Newbie    |https://github.com/yoz0816/frontend-mentor-challenges/tree/main/intro%20component%20with%20signup%20form    |https://yoz0816.github.io/frontend-mentor-challenges/intro%20component%20with%20signup%20form/  | 
 ## Technologies Used
 
 - HTML5
