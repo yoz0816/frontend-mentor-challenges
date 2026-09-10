@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Libre Franklin", sans-serif;
+  background-color: #ffffff;
+  color: hsl(209, 33%, 12%);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 85px 30px 45px;
+}
+
+.hero-section {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  display: block;
+  margin-bottom: 43px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.header h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header h1 span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: hsl(209, 33%, 12%);
+  text-align: center;
+}
+
+.subscribe-form {
+  width: 100%;
+  max-width: 638px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 90px;
+}
+
+.input-container {
+  flex: 1;
+  min-width: 0;
+}
+
+.input-container input {
+  width: 100%;
+  height: 56px;
+  padding: 0 30px;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 28px;
+  outline: none;
+  background-color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  color: hsl(209, 33%, 12%);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-container input::placeholder {
+  color: hsl(223, 100%, 88%);
+  opacity: 1;
+}
+
+.input-container input:focus {
+  border-color: hsl(223, 87%, 63%);
+  box-shadow: 0 0 0 3px hsla(223, 87%, 63%, 0.08);
+}
+
+.input-container input:invalid:not(:placeholder-shown) {
+  border-color: hsl(354, 100%, 66%);
+}
+
+.error-message {
+  display: none;
+  padding: 7px 30px 0;
+  font-size: 12px;
+  line-height: 1.3;
+  font-style: italic;
+  color: hsl(354, 100%, 66%);
+}
+
+.input-container input:invalid:not(:placeholder-shown)
+  + .error-message {
+  display: block;
+}
+
+.btn {
+  flex: 0 0 200px;
+  height: 56px;
+  border: none;
+  border-radius: 28px;
+  background-color: hsl(223, 87%, 63%);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 15px hsla(223, 87%, 63%, 0.25);
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  background-color: hsl(223, 90%, 70%);
+  box-shadow: 0 10px 18px hsla(223, 87%, 63%, 0.3);
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin-bottom: 85px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.social-media a {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hsl(223, 100%, 93%);
+  border-radius: 50%;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.social-media a img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.social-media a:hover {
+  background-color: hsl(223, 87%, 63%);
+  border-color: hsl(223, 87%, 63%);
+}
+
+.copy {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+      padding: 70px 30px 40px;
+    }
+
+    .logo {
+      width: 80px;
+      margin-bottom: 45px;
+    }
+
+    .header {
+      margin-bottom: 38px;
+    }
+
+    .header h1 {
+      font-size: 38px;
+    }
+
+    .subscribe-form {
+      max-width: 600px;
+    }
+
+    .hero-image {
+      max-width: 650px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .container {
+    min-height: 100vh;
+
+    padding: 70px 30px 35px;
+  }
+
+  .hero-section {
+    max-width: 100%;
+  }
+
+
+  .logo {
+    width: 75px;
+
+    margin-bottom: 42px;
+  }
+
+
+  .header {
+    margin-bottom: 38px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 17px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+
+  .subscribe-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin-bottom: 80px;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  .input-container input {
+    width: 100%;
+    height: 50px;
+    padding: 0 30px;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+
+
+  .error-message {
+    padding: 8px 0 0;
+    text-align: center;
+    font-size: 12px;
+  }
+
+
+  .btn {
+    width: 100%;
+    flex: none;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+
+
+  .hero-image {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 120px;
+  }
+
+  .social-media {
+    gap: 17px;
+    margin-bottom: 28px;
+  }
+
+  .social-media a {
+    width: 32px;
+    height: 32px;
+  }
+
+
+  .copy {
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .container {
+    padding: 55px 25px 30px;
+  }
+
+  .logo {
+    width: 70px;
+    margin-bottom: 38px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .subscribe-form {
+    margin-bottom: 65px;
+  }
+
+  .hero-image {
+    margin-bottom: 95px;
+  }
+
+}
