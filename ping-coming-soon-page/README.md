@@ -41,10 +41,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here](#)
-- Live Site URL: [Add your live site URL here](#)
+- Solution URL: [solution URL ](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/ping-coming-soon-page)
+- Live Site URL: [Live URL](https://yoz0816.github.io/frontend-mentor-challenges/ping-coming-soon-page/)
 
----
+--
 
 ## My process
 
