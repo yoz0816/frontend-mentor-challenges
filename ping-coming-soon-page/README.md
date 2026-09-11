@@ -58,7 +58,6 @@ Users should be able to:
 - Vanilla JavaScript
 - HTML form 
 - CSS pseudo-classes
-
 ---
 
 ### What I learned
