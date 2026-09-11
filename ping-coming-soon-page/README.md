@@ -56,10 +56,8 @@ Users should be able to:
 - Responsive design
 - Mobile-first workflow
 - Vanilla JavaScript
-- HTML form validation
+- HTML form 
 - CSS pseudo-classes
-- Google Fonts
-- Git and GitHub
 
 ---
 
