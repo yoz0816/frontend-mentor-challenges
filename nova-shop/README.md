@@ -37,7 +37,6 @@ Users should be able to:
 ### Links
 
 * **Solution URL:** [Solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/nova-shop)
-
 * **Live Site URL:**[Live URL](https://yoz0816.github.io/frontend-mentor-challenges/nova-shop/)
 
 ---
@@ -63,7 +62,6 @@ While building this project, I practiced:
 * Building reusable product cards.
 * Using semantic HTML elements.
 * Creating hover effects for interactive elements.
-* Managing spacing, typography, and sizing across different screen sizes.
 * Making product images and cards responsive.
 
 ### Continued Development
@@ -78,7 +76,6 @@ In future projects, I want to continue improving my:
 * Shopping cart functionality.
 * Accessibility.
 * CSS animations and interactive effects.
-
 ---
 
 ## Author
