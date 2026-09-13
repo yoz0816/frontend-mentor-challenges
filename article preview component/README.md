@@ -70,7 +70,6 @@ In future projects, I want to continue improving my:
 
 * [Frontend Mentor](https://www.frontendmentor.io/) - I used the challenge design and requirements to build the project.
 * [MDN Web Docs](https://developer.mozilla.org/) - Useful reference for HTML, CSS, and JavaScript.
-* [W3Schools](https://www.w3schools.com/) - Helpful for reviewing JavaScript and CSS concepts.
 
 ## Author
 
