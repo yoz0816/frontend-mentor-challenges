@@ -45,7 +45,6 @@ Users should be able to:
 * Responsive design
 * CSS media queries
 * JavaScript
-* Google Fonts
 
 ### What I learned
 
