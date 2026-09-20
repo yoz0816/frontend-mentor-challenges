@@ -45,7 +45,6 @@ Users should be able to:
 - Flexbox layout
 - Mobile-first responsive design
 - Custom CSS shapes and pseudo-elements 
-
 ---
 
 ### What I learned
