@@ -49,10 +49,6 @@ Users should be able to:
 - Google Fonts
   - Montserrat
   - Fraunces
-- Git
-- GitHub
-- GitHub Pages
-
 ### What I Learned
 
 This project helped me practice building a responsive product card from a design reference.
