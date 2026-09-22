@@ -83,7 +83,6 @@ In future projects, I want to continue improving:
 - Interactive UI states
 - Error handling
 - Writing cleaner and more reusable JavaScript
-- Building more projects without relying on frameworks
 ### Useful resources
 
 - [Frontend Mentor](https://www.frontendmentor.io/) - I used this challenge to practice building a real-world frontend component from a professional design.
