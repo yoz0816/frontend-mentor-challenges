@@ -47,8 +47,6 @@ In future projects, I want to continue improving:
 * Accessibility
 * CSS positioning
 * Writing cleaner and more maintainable CSS
-* Recreating designs more accurately from screenshots
-
 ### Useful Resources
 
 * [Frontend Mentor](https://www.frontendmentor.io/) - Used the challenge design and requirements to build the project.
