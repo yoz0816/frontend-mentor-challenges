@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ solution URL ]()
-- Live Site URL: [ live site URL]()
+- Solution URL: [ solution URL ](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/digitalbank-landing-page-master)
+- Live Site URL: [ live site URL](https://yoz0816.github.io/frontend-mentor-challenges/digitalbank-landing-page-master/)
 
 ## My process
 
