@@ -49,7 +49,6 @@ Users should be able to:
 - CSS gradients
 - CSS media queries
 - Google Fonts
-- Mobile-first responsive design
 
 ### What I learned
 
