@@ -63,8 +63,6 @@ In future projects, I want to continue improving my:
 * CSS positioning
 * Flexbox layouts
 * Writing cleaner and more maintainable CSS
-* Building interactive components without relying on frameworks
-
 ### Useful resources
 
 * [Frontend Mentor](https://www.frontendmentor.io/) - I used the challenge design and requirements to build the project.
