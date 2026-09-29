@@ -73,9 +73,6 @@ In future projects, I want to continue improving my:
 - Accessibility and semantic HTML
 - CSS organization and maintainability
 - JavaScript fundamentals
-- Ability to accurately reproduce designs from references
-
-
 ### Useful Resources
 
 - [Frontend Mentor](https://www.frontendmentor.io/) - Used for the challenge and design reference.
