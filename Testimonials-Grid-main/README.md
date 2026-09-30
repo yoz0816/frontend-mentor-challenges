@@ -68,7 +68,6 @@ In future projects I want to continue improving:
 * Frontend Mentor
 * MDN Web Docs
 * CSS Tricks
-* Kevin Powell's CSS tutorials
 
 ## Author
 
