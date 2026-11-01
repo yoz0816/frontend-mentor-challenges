@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: Add your Frontend Mentor solution URL here.
-- Live Site URL: Add your deployed website URL here.
+- Solution URL: [Solution URL](https://github.com/yoz0816/frontend-mentor-challenges/tree/main/fylo-dark-theme-landing-page-master)
+- Live Site URL:[live URL](https://yoz0816.github.io/frontend-mentor-challenges/fylo-dark-theme-landing-page-master/)
 
 ## My Process
 
