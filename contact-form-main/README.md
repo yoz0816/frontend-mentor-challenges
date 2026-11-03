@@ -95,5 +95,5 @@ I want to continue improving my frontend development skills by focusing on:
 ## Author
 
 - GitHub - [@yoz0816](https://github.com/yoz0816)
-- Frontend Mentor - [My Frontend Mentor Profile](https://www.frontendmentor.io/)
+- Frontend Mentor - [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/yoz0816)
 
