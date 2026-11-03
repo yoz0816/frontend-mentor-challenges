@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Contact Form</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="contact-card">
+      <h1>Contact Us</h1>
+      <form id="contact-form" novalidate>
+
+        <div class="name-group">
+          <div class="form-group">
+            <label for="first-name">
+              First Name <span>*</span>
+            </label>
+
+            <input type="text" id="first-name" name="firstName" autocomplete="given-name">
+            <small class="error-message" id="first-name-error">
+              This field is required
+            </small>
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">
+              Last Name <span>*</span>
+            </label>
+
+            <input type="text" id="last-name" name="lastName" autocomplete="family-name">
+
+            <small class="error-message" id="last-name-error">
+              This field is required
+            </small>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="email">
+            Email Address <span>*</span>
+          </label>
+
+          <input type="email" id="email" name="email" autocomplete="email">
+          <small class="error-message" id="email-error">
+            Please enter a valid email address
+          </small>
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            Query Type <span>*</span>
+          </label>
+
+          <div class="query-group" role="radiogroup"
+            aria-label="Query Type">
+
+            <label class="query-option" for="general">
+              <input type="radio" id="general"
+                name="queryType" value="General Enquiry">
+
+              <span>General Enquiry</span>
+            </label>
+
+            <label class="query-option" for="support">
+              <input type="radio" id="support"
+                name="queryType" value="Support Request">
+
+              <span>Support Request</span>
+            </label>
+
+          </div>
+
+          <small class="error-message" id="query-error">
+            Please select a query type
+          </small>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="message">
+            Message <span>*</span>
+          </label>
+
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <small class="error-message" id="message-error">
+            This field is required
+          </small>
+
+        </div>
+
+        <div class="form-group consent-group">
+          <label class="consent-label" for="consent">
+            <input type="checkbox" id="consent" name="consent">
+            <span>
+              I consent to being contacted by the team <span>*</span>
+            </span>
+
+          </label>
+
+          <small class="error-message" id="consent-error">
+            To submit this form, please consent to being contacted
+          </small>
+
+        </div>
+
+        <button type="submit">Submit</button>
+
+      </form>
+
+    </section>
+
+  </main>
+  <div class="success-message" id="success-message"
+    role="status" aria-live="polite">
+
+    <div class="success-heading">
+      <span class="success-icon">✓</span>
+      <h2>Message Sent!</h2>
+    </div>
+
+    <p>
+      Thanks for completing the form. We'll be in touch soon!
+    </p>
+
+  </div>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank">Frontend Mentor</a>.
+
+    Coded by <a href="#">Your Name</a>.
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
